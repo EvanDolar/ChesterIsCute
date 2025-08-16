@@ -43,7 +43,7 @@ const Division_label = document.getElementById("division_label");
 const Division_difficulty = document.getElementById("division_difficulty");
 
 const Multiplication_label = document.getElementById("multiplication_label");
-const Subtraction_difficulty = document.getElementById("multiplication_difficulty");
+const Multiplication_difficulty = document.getElementById("multiplication_difficulty");
 
 const Algebra_label = document.getElementById("algebra_label");
 const Algebra_difficulty = document.getElementById("algebra_difficulty");
