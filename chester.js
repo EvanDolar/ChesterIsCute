@@ -34,19 +34,19 @@ const Multiplication = document.getElementById("multiplication");
 const label_5 = document.getElementById("algebra_label");
 const Alegbra = document.getElementById("algebra");
 
-const Addition_label = document.getElementById("addition_label");
+const Addition_label = document.getElementById("addition_difficulty_label");
 const Addition_difficulty = document.getElementById("addition_difficulty");
 
-const Subtraction_label = document.getElementById("subtraction_label");
+const Subtraction_label = document.getElementById("subtraction_difficulty_label");
 const Subtraction_difficulty = document.getElementById("subtraction_difficulty");
 
-const Division_label = document.getElementById("division_label");
+const Division_label = document.getElementById("division_difficulty_label");
 const Division_difficulty = document.getElementById("division_difficulty");
 
-const Multiplication_label = document.getElementById("multiplication_label");
+const Multiplication_label = document.getElementById("multiplication_difficulty_label");
 const Multiplication_difficulty = document.getElementById("multiplication_difficulty");
 
-const Algebra_label = document.getElementById("algebra_label");
+const Algebra_label = document.getElementById("algebra_difficulty_label");
 const Algebra_difficulty = document.getElementById("algebra_difficulty");
 
 Addition_label.style.display = 'none';
