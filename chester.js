@@ -63,7 +63,7 @@ Multiplication_difficulty.style.display = 'none';
 Algebra_label.style.display = 'none';
 Algebra_difficulty.style.display = 'none';
 
-} 
+
 	
 	
 function level_selecter	() {
