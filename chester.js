@@ -13,6 +13,7 @@ Btn1.addEventListener("click", event => {
 	
 		Btn1.textContent = "show";
 	}
+}
 	
 const Btn2 = document.getElementById("btn2");
 
