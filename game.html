@@ -5,7 +5,98 @@
 	</head>
 	<body>
 	
-		<link rel="stylesheet" href="styles.css">
+	<h1>Math practice game</h1>
+	
+	<p>game still being coded :)<pa>
+	
+	<form onsubmit="level_selecter" name = "math_type_form">
+	
+		<div>
+		<label id="math_Type">Please select math type you would like to practice</label>
+		
+		
+			<label id="addition_label" for="addition">addition</label>
+			<input id="addition" type="radio" name="addition_Game" value="addition">
+			
+			<br>
+			
+			<label id="subtraction_label" for="subtraction">subtraction</label>
+			<input id="subtraction" type="radio" name="subtraction_Game" value="subtraction">
+			
+			<br>
+			
+			<label id="division_label" for="division">division</label>
+			<input id="division" type="radio" name="division_Game" value="division">
+			
+			<br>
+			
+			<label id="multiplication_label" for="multiplication">multiplaction</label>
+			<input id="multiplication" type="radio" name="multiplication_Game" value="multiplication">
+			
+			<br>
+			
+			<label id="algebra_label" for="algebra">algebra</label>
+			<input id="algebra" type="radio" name="algebra_Game" value="algebra">
+		<div/>	
+			<br>
+		<div>
+			<input type ="submit" id="btn2" value="play" name="Math_type_submit"/>
+			
+		</div>
+	
+	</form>
+	
+	<form>
+	
+		<div>
+			<label id="addition_difficulty_label" for="addition_difficulty">dificulty</label>
+			<select id="addition_difficulty" name="add_dif">
+			<option>normal</option>
+			<option>medium</option>
+			<option>hard</option>
+			</select>
+		</div>
+		
+				<div>
+			<label id="subtraction_difficulty_label" for="subtraction_difficulty">dificulty</label>
+			<select id="subtraction_difficulty" name="sub_dif">
+			<option>normal</option>
+			<option>medium</option>
+			<option>hard</option>
+			</select>
+		</div>
+		
+				<div>
+			<label id="division_difficulty_label" for="division_difficulty">dificulty</label>
+			<select id="division_difficulty" name="div_dif">
+			<option>normal</option>
+			<option>long division</option>
+			<option>mixed</option>
+			</select>
+		</div>
+		
+				<div>
+			<label id="multiplication_difficulty_label" for="multiplication_difficulty">dificulty</label>
+			<select id="multiplication_difficulty" name="mult_dif">
+			<option>normal</option>
+			<option>medium</option>
+			<option>fractions</option>
+			</select>
+		</div>
+		
+				<div>
+			<label id="algebra_difficulty_label" for="algebra_difficulty">dificulty</label>
+			<select id="algebra_difficulty" name="algebra_dif">
+			<option>normal</option>
+			<option>medium</option>
+			<option>hard</option>
+			</select>
+		</div>
+	
+	</form>
+	
+	
+		<link rel="stylesheet" href="styles.css"
 		<script src="chester.js"></script>
 	</body>
 </html>
