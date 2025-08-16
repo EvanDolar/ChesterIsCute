@@ -122,5 +122,3 @@ function level_selecter	() {
 }	
 
 }
-
-		
