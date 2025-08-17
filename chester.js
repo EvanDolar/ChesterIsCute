@@ -17,7 +17,9 @@ const label_4 = document.getElementById("multiplication_label");
 const Multiplication = document.getElementById("multiplication");
 
 const label_5 = document.getElementById("algebra_label");
-const Alegbra = document.getElementById("algebra");
+const Algebra = document.getElementById("algebra");
+
+
 
 const Addition_label = document.getElementById("addition_difficulty_label");
 const Addition_difficulty = document.getElementById("addition_difficulty");
@@ -50,3 +52,57 @@ Multiplication_difficulty.style.display = 'none';
 Algebra_label.style.display = 'none';
 Algebra_difficulty.style.display = 'none';
 
+Btn2.onclick = function(){
+
+	Addition.style.display = 'none';
+	label_1.style.display = 'none';
+	Subtraction.style.display = 'none';
+	label_2.style.display = 'none';
+	Division.style.display = 'none';
+	label_3.style.display = 'none';
+	Multiplication.style.display = 'none';
+	label_4.style.display = 'none';
+	Algebra.style.display = 'none';
+	label_5.style.display = 'none';
+	Btn2.style.display = 'none';
+	
+
+	if(Addition.checked){
+		Addition_difficulty.style.display = 'block';
+		Addition_label.style.display = 'block';
+	
+	}
+	else if(Subtraction.checked){
+		Subtraction_label.style.display = 'block';
+		Subtraction_difficulty.style.display = 'block';
+	}
+	
+	else if(Division.checked){
+		Division_label.style.display = 'none';
+		Division_difficulty.style.display = 'none';
+	}
+	
+	else if(Muliplication.checked){
+		Multiplication_label.style.display = 'none';
+		Multiplication_difficulty.style.display = 'none';
+	}
+	
+	else if(Algebra.checked) {
+		Algebra_label.style.display = 'none';
+		Algebra_difficulty.style.display = 'none';
+	}	
+
+	else {
+			Addition.style.display = 'block';
+	label_1.style.display = 'block';
+	Subtraction.style.display = 'block';
+	label_2.style.display = 'block';
+	Division.style.display = 'block';
+	label_3.style.display = 'block';
+	Multiplication.style.display = 'block';
+	label_4.style.display = 'block';
+	Algebra.style.display = 'block';
+	label_5.style.display = 'block';
+	Btn2.style.display = 'block';
+	}
+}
