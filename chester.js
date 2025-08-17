@@ -1,4 +1,4 @@
-
+const type_label = getElementById("math_Type");
 	
 const Btn2 = document.getElementById("btn2");
 
@@ -65,7 +65,7 @@ Btn2.onclick = function(){
 	Algebra.style.display = 'none';
 	label_5.style.display = 'none';
 	Btn2.style.display = 'none';
-	
+	type_label.style.display = 'none';
 
 	if(Addition.checked){
 		Addition_difficulty.style.display = 'block';
@@ -93,16 +93,17 @@ Btn2.onclick = function(){
 	}	
 
 	else {
-			Addition.style.display = 'block';
-	label_1.style.display = 'block';
-	Subtraction.style.display = 'block';
-	label_2.style.display = 'block';
-	Division.style.display = 'block';
-	label_3.style.display = 'block';
-	Multiplication.style.display = 'block';
-	label_4.style.display = 'block';
-	Algebra.style.display = 'block';
-	label_5.style.display = 'block';
-	Btn2.style.display = 'block';
+		Addition.style.display = 'block';
+		label_1.style.display = 'block';
+		Subtraction.style.display = 'block';
+		label_2.style.display = 'block';
+		Division.style.display = 'block';
+		label_3.style.display = 'block';
+		Multiplication.style.display = 'block';
+		label_4.style.display = 'block';
+		Algebra.style.display = 'block';
+		label_5.style.display = 'block';
+		Btn2.style.display = 'block';
+		type_label.style.display = 'block';
 	}
 }
