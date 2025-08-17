@@ -1,18 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", () => {
-  const bodyId = document.body.id;
-
-  if (bodyId === "index") {
-    // Code for page1 only
-    console.log("Running Page 1 code");
-  }
-
-  if (bodyId === "game") {
-    // Code for page2 only
-    console.log("Running Page 2 code");
-  }
-});
-
 const Btn1 = document.getElementById("btn1");
 
 const Chesterphoto1 = document.getElementById("chesterphoto1");
