@@ -65,7 +65,7 @@ Btn2.onclick = function(){
 	Algebra.style.display = 'none';
 	label_5.style.display = 'none';
 	Btn2.style.display = 'none';
-	type_label.style.display = 'none';
+	Type_label.style.display = 'none';
 
 	if(Addition.checked){
 		Addition_difficulty.style.display = 'block';
@@ -104,6 +104,6 @@ Btn2.onclick = function(){
 		Algebra.style.display = 'block';
 		label_5.style.display = 'block';
 		Btn2.style.display = 'block';
-		type_label.style.display = 'block';
+		Type_label.style.display = 'block';
 	}
 }
