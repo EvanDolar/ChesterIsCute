@@ -49,8 +49,9 @@ const Multiplication_difficulty = document.getElementById("multiplication_diffic
 const Algebra_label = document.getElementById("algebra_difficulty_label");
 const Algebra_difficulty = document.getElementById("algebra_difficulty");
 
-Addition_label.style.display = 'none';
+
 Addition_difficulty.style.display = 'none';
+Addition_label.style.display = 'none';
 
 Subtraction_label.style.display = 'none';
 Subtraction_difficulty.style.display = 'none';
