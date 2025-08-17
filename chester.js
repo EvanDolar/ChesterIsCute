@@ -1,4 +1,4 @@
-const type_label = getElementById("math_Type");
+const type_label = document.getElementById("math_Type");
 	
 const Btn2 = document.getElementById("btn2");
 
