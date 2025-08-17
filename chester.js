@@ -78,18 +78,18 @@ Btn2.onclick = function(){
 	}
 	
 	else if(Division.checked){
-		Division_label.style.display = 'none';
-		Division_difficulty.style.display = 'none';
+		Division_label.style.display = 'block';
+		Division_difficulty.style.display = 'block';
 	}
 	
-	else if(Muliplication.checked){
-		Multiplication_label.style.display = 'none';
-		Multiplication_difficulty.style.display = 'none';
+	else if(Multiplication.checked){
+		Multiplication_label.style.display = 'block';
+		Multiplication_difficulty.style.display = 'block';
 	}
 	
 	else if(Algebra.checked) {
-		Algebra_label.style.display = 'none';
-		Algebra_difficulty.style.display = 'none';
+		Algebra_label.style.display = 'block';
+		Algebra_difficulty.style.display = 'block';
 	}	
 
 	else {
