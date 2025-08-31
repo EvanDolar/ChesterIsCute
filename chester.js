@@ -61,15 +61,15 @@ const Multiplication_difficulty = document.getElementById("multiplication_diffic
 const Algebra_label = document.getElementById("algebra_difficulty_label");
 const Algebra_difficulty = document.getElementById("algebra_difficulty");
 
-const Btn3 document.getElementById("btn3");
+const Btn3 = document.getElementById("btn3");
 
-const Btn4 document.getElementById("btn4");
+const Btn4 = document.getElementById("btn4");
 
-const Btn5 document.getElementById("btn5");
+const Btn5 = document.getElementById("btn5");
 
-const Btn6 document.getElementById("btn6");
+const Btn6 = document.getElementById("btn6");
 
-const Btn7 document.getElementById("btn7");
+const Btn7 = document.getElementById("btn7");
 
 let Breaks1 = document.querySelectorAll(".breaks1");
 
