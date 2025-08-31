@@ -4,7 +4,7 @@ function RandomNumber(min, max) {
 
 let ask_question = false;
 let runs = 0; 
-
+let maxRuns = 10;
 let Equations = document.getElementById("equation");
 let anwser = 0;
 let points = 0;
@@ -77,10 +77,34 @@ let Breaks1 = document.querySelectorAll(".breaks1");
 
 function AdditionGameNor() {	
 
-	
-
-
 	const interval = setInterval(() => {
+    if (ask_questions && runs < maxRuns) {
+        AdditionGameNorSetup();
+        runs++;
+    }
+
+    // Check if the answer is correct
+    if (Solve_Equ === answer) {
+        points = points + 1;
+        points.toString(); // <-- This still does nothing, you can remove it
+    }
+
+    // Stop when maxRuns reached
+    if (runs >= maxRuns) {
+        clearInterval(interval);
+        Score.textContent = points;
+
+        // Hide elements properly
+        Equations.style.display = 'none';
+        Solve.style.display = 'none';
+        Solve_Equ.style.display = 'none';
+        Answerbtn.style.display = 'none';
+    }
+}, 1000); // <-- Closing parenthesis for setInterval
+
+
+
+	/*const interval = setInterval(() => {
    	 if (ask_questions && runs < maxRuns) {
       	  AdditionGameNorSetup();
         	  runs++;
@@ -98,6 +122,7 @@ function AdditionGameNor() {
   	   	Anwserbtn.style.display = 'none';
     }
 }
+*/
 }
 	
 
