@@ -92,9 +92,9 @@ function AdditionGameNor() {
     	if (runs >= maxRuns) {
       	clearInterval(interval);
       	Score.textContent = points;
-	   	Equations.style.disply = 'none';
-	   	Solve.style.disply = 'none';
-			Solve_Equ.style.disply = 'none';
+	   	Equations.style.display = 'none';
+	   	Solve.style.display = 'none';
+			Solve_Equ.style.display = 'none';
   	   	Anwserbtn.style.display = 'none';
     }
 }
@@ -116,9 +116,9 @@ function AdditionGameMed() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -138,9 +138,9 @@ function AdditionGameHard() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -160,9 +160,9 @@ function SubtractionGameNor() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -181,9 +181,9 @@ function SubtractionGameMed() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -202,9 +202,9 @@ function SubtractionGameHard() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -223,9 +223,9 @@ function DivisionGameNor() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -245,9 +245,9 @@ function DivisionGameMixed() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -266,9 +266,9 @@ function MultiGameNor() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -287,9 +287,9 @@ function MultiGameMed() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -308,9 +308,9 @@ function MultiGameMixed() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -329,9 +329,9 @@ function AlgebraGameNor() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -350,9 +350,9 @@ function AlgebraGameMed() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -371,9 +371,9 @@ function AlgebraGameHard() {
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
-	   Equations.style.disply = 'none';
-	   Solve.style.disply = 'none';
-		Solve_Equ.style.disply = 'none';
+	   Equations.style.display = 'none';
+	   Solve.style.display = 'none';
+		Solve_Equ.style.display = 'none';
   	   Anwserbtn.style.display = 'none';
     }
 }
@@ -387,9 +387,9 @@ function AdditionGameNorSetup() {
 	number2.toString();
 	number1.toString();
 	answer.toString();
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'AdditionGameNor';
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
@@ -406,9 +406,9 @@ function AdditionGameMedSetup() {
 	number2.toString();
 	number1.toString();
 	answer.toString();
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'AdditionGameMed';
 	Anwserbtn.style.display = 'block';
 	AdditionGameMed();
@@ -423,9 +423,9 @@ function AdditionGameHardSetup() {
 	number2.toString();
 	number1.toString();
 	answer.toString();
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'AdditionGameHard';
 	Anwserbtn.style.display = 'block';
 }
@@ -442,9 +442,9 @@ function SubtractionGameNorSetup() {
 		answer = number2 - number1;
 		Equations.textContent = number2 + " - " + number1;
 	}
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'SubtractrionGameNor';
 	Anwserbtn.style.display = 'block';
 }
@@ -463,9 +463,9 @@ function SubtractionGameMedSetup() {
 		answer = number2 - number1;
 		Equations.textContent = number2 + " - " + number1;
 	}
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'SubtractrionGameMed';
 	Anwserbtn.style.display = 'block';
 }
@@ -483,9 +483,9 @@ function SubtractionGameHardSetup() {
 		answer = number2 - number1;
 		Equations.textContent = number2 + " - " + number1;
 	}
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'SubtractrionGameHard';
 	Anwserbtn.style.display = 'block';
 }
@@ -500,9 +500,9 @@ function DivisionGameNorSetup() {
 	number1.toString();
 	answer.toString();
 	Equations.textContent = dividend + " / " + number1; 
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'DivisonGameNor';
 	Anwserbtn.style.display = 'block';
 }
@@ -534,9 +534,9 @@ function DivisionGameMixedSetup() {
  		
 		Equations.textContent = "(" + number1 + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
 	
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'DivisonGameMixed';
 	Anwserbtn.style.display = 'block';
 }
@@ -550,9 +550,9 @@ function MultiGameNorSetup() {
 	number1.toString();
 	answer.toString();
 	Equations.textContent =  number1 + " x " + number2;
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'MultiGameNor';
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
@@ -578,9 +578,9 @@ function MultiGameMixedSetup() {
 	number6.toString();
 	answer.toString();
 	Equations.textContent = "(" + number6 + "*" + number3 + "+" + number4 + ")" + " * " + "(" + number1 + "*" + number5 + "-" + number2 + ")";
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'MultiGameNor';
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
@@ -619,9 +619,9 @@ function AlgebraGameNorSetup() {
 }
 	
 	Equations.textContent =  Dividend + " /  x = " + number1;
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'AlgebraGameNor';
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
@@ -661,9 +661,9 @@ function AlgebraGameMedSetup() {
 	}
 
 	Equations.textContent =  number1 + " x " + number2;
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'AlgebraGameMed';
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
@@ -764,9 +764,9 @@ function AlgebraGameHardSetup() {
 	
 	}
 	
-	Equations.style.disply = 'block';
-	Solve.style.disply = 'block';
-	Solve_Equ.style.disply = 'block';
+	Equations.style.display = 'block';
+	Solve.style.display = 'block';
+	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = 'AlgebraGameHard';
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
@@ -876,9 +876,9 @@ Multiplication_difficulty.style.display = 'none';
 Algebra_label.style.display = 'none';
 Algebra_difficulty.style.display = 'none';
 
-Equations.style.disply = 'none';
-Solve.style.disply = 'none';
-Solve_Equ.style.disply = 'none';
+Equations.style.display = 'none';
+Solve.style.display = 'none';
+Solve_Equ.style.display = 'none';
 Score.style.display = 'none';
 
 Btn2.onclick = function(){
