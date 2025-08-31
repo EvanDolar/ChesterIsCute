@@ -9,88 +9,105 @@
 	
 	<p>game still being coded :)</p>
 	
+	<p id="equation"></p>
+	<p id="score""></p>
+	
 	<form>
 	
 		<div>
 		<label id="math_Type">Please select math type you would like to practice</label>
 		
-			<br>
+			<br class="breaks1">
 		
 			<label id="addition_label" for="addition">addition</label>
 			<input id="addition" type="radio" name="Math_Game" value="addition">
 			
-			<br>
+			<br class="breaks1">
 			
 			<label id="subtraction_label" for="subtraction">subtraction</label>
 			<input id="subtraction" type="radio" name="Math_Game" value="subtraction">
 			
-			<br>
+			<br class="breaks1">
 			
 			<label id="division_label" for="division">division</label>
 			<input id="division" type="radio" name="Math_Game" value="division">
 			
-			<br>
+			<br class="breaks1">
 			
 			<label id="multiplication_label" for="multiplication">multiplaction</label>
 			<input id="multiplication" type="radio" name="Math_Game" value="multiplication">
 			
-			<br>
+			<br class="breaks1">
 			
 			<label id="algebra_label" for="algebra">algebra</label>
 			<input id="algebra" type="radio" name="Math_Game" value="algebra">
 
-			<br>
+			<br class="breaks1">
 			<button type ="button" id="btn2">play</button>
 			
 		</div>
 	
 	</form>
 	
+	<div>
+	<label id="solve" for="solve_equ">Solve the equation</label>
+	<input id="solve_equ" name="solveEqu">
+	<button type="button" id=anwserbtn>anwser</button>
+	</div>
+	
 	<form>
 	
 		<div>
 			<label id="addition_difficulty_label" for="addition_difficulty">dificulty</label>
-			<select id="addition_difficulty" name="add_dif">
+			<select id="addition_difficulty" name="add_dif" onchange = "handle_change(this.value)">
 			<option>normal</option>
 			<option>medium</option>
 			<option>hard</option>
 			</select>
+			<br>
+			<button type="button" id="btn3" onclick="AdditionGame">Go</button>
 		</div>
 		
 				<div>
 			<label id="subtraction_difficulty_label" for="subtraction_difficulty">dificulty</label>
-			<select id="subtraction_difficulty" name="sub_dif">
+			<select id="subtraction_difficulty" name="sub_dif" onchange = "handle_change(this.value)">
 			<option>normal</option>
 			<option>medium</option>
 			<option>hard</option>
 			</select>
+			<br>
+			<button type="button" id="btn4" onclick="SubtractionGame">Go</button>
 		</div>
 		
 				<div>
 			<label id="division_difficulty_label" for="division_difficulty">dificulty</label>
-			<select id="division_difficulty" name="div_dif">
+			<select id="division_difficulty" name="div_dif" onchange = "handle_change(this.value)">
 			<option>normal</option>
-			<option>long division</option>
 			<option>mixed</option>
+			<br>
+			<button type="button" id="btn5" onclick="DivisonGame">Go</button>
 			</select>
 		</div>
 		
 				<div>
 			<label id="multiplication_difficulty_label" for="multiplication_difficulty">dificulty</label>
-			<select id="multiplication_difficulty" name="mult_dif">
+			<select id="multiplication_difficulty" name="mult_dif" onchange = "handle_change(this.value)">
 			<option>normal</option>
-			<option>medium</option>
-			<option>fractions</option>
+			<option>mixed</option>
 			</select>
+			<br>
+			<button type="button" id="btn6" onclick="MultiplicationGame">Go</button>
 		</div>
 		
 				<div>
 			<label id="algebra_difficulty_label" for="algebra_difficulty">dificulty</label>
-			<select id="algebra_difficulty" name="algebra_dif">
+			<select id="algebra_difficulty" name="algebra_dif" onchange = "handle_change(this.value)">
 			<option>normal</option>
 			<option>medium</option>
 			<option>hard</option>
 			</select>
+
+			<button type="button" id="btn7" onclick= "MultiplicationGame">Go</button>
 		</div>
 	
 	</form>
