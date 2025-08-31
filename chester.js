@@ -88,7 +88,7 @@ function AdditionGameNor() {
 		if (Solve_Equ = anwser) {
 		    points = points + 1;
 		    points.toString();
-	
+}	
     	if (runs >= maxRuns) {
       	clearInterval(interval);
       	Score.textContent = points;
@@ -98,8 +98,9 @@ function AdditionGameNor() {
   	   	Anwserbtn.style.display = 'none';
     }
 }
-	
 }
+	
+
 
 function AdditionGameMed() {
 	const interval = setInterval(() => {
@@ -110,6 +111,7 @@ function AdditionGameMed() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
+	}
 	
     if (runs >= maxRuns) {
 		clearInterval(interval);
@@ -132,7 +134,7 @@ function AdditionGameHard() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -154,7 +156,7 @@ function SubtractionGameNor() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -175,7 +177,7 @@ function SubtractionGameMed() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -196,7 +198,7 @@ function SubtractionGameHard() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -217,7 +219,7 @@ function DivisionGameNor() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -239,7 +241,7 @@ function DivisionGameMixed() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -260,7 +262,7 @@ function MultiGameNor() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -281,7 +283,7 @@ function MultiGameMed() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -302,7 +304,7 @@ function MultiGameMixed() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -323,7 +325,7 @@ function AlgebraGameNor() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -344,7 +346,7 @@ function AlgebraGameMed() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
@@ -365,7 +367,7 @@ function AlgebraGameHard() {
 		if (Solve_Equ = anwser) {
 			points = points + 1;
 	  	   points.toString();
-	
+	}
     if (runs >= maxRuns) {
 		clearInterval(interval);
       Score.textContent = points;
