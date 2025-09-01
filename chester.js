@@ -4,13 +4,13 @@ function RandomNumber(min, max) {
 
 let questions = 0;
 
-let Equations = document.getElementById("equation");
+const Equations = document.getElementById("equation");
 let anwser = 0;
 let points = 0;
 
 const Score = document.getElementById("score");
 
-const Anwserbtn = document.getElementById("answerbtn");
+const Anwserbtn = document.getElementById("anwserbtn");
 
 const Solve = document.getElementById("solve");
 
@@ -1031,8 +1031,7 @@ Equations.style.display = 'none';
 Solve.style.display = 'none';
 Solve_Equ.style.display = 'none';
 Score.style.display = 'none';
-
-Btn2.onclick = function(){
+Btn2.addEventListener("click", event => {
 
 	Addition.style.display = 'none';
 	label_1.style.display = 'none';
@@ -1046,11 +1045,7 @@ Btn2.onclick = function(){
 	label_5.style.display = 'none';
 	Btn2.style.display = 'none';
 	type_label.style.display = 'none';
-	Btn3.style.display = 'block';
-	Btn4.style.display = 'block';
-	Btn5.style.display = 'block';
-	Btn6.style.display = 'block';
-	Btn7.style.display = 'block';
+
 
 
 	Breaks1.forEach(el => {
@@ -1104,4 +1099,7 @@ Btn2.onclick = function(){
   			el.style.display = "block";
 		});
 	}
-	}
+
+});
+
+
