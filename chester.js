@@ -913,7 +913,7 @@ function AlgebraGameHardSetup() {
 }
 
 function AdditionGame()	 {
-
+	Anwserbtn.style.display = 'block';
 	Addition_difficulty.style.display = 'none';
 	Addition_label.style.display = 'none';
    if (selectedValue === "normal") {
@@ -932,6 +932,7 @@ function AdditionGame()	 {
     }
 
 function SubtractionGame() {
+	Anwserbtn.style.display = 'block';
 
 	Subtraction_difficulty.style.display = 'none';
 	Subtraction_label.style.display = 'none';
@@ -951,6 +952,7 @@ function SubtractionGame() {
     }
 
 function MultiplicationGame() {
+	Anwserbtn.style.display = 'block';
 
 	Multiplication_difficulty.style.display = 'none';
 	Multiplication_label.style.display = 'none';
@@ -967,6 +969,7 @@ function MultiplicationGame() {
     }
 
 function DivisionGame() {
+	Anwserbtn.style.display = 'block';
 
 	Division_difficulty.style.display = 'none';
 	Division_label.style.display = 'none';
@@ -983,6 +986,7 @@ function DivisionGame() {
     }
 
 function AlgebraGame() {
+	Anwserbtn.style.display = 'block';
 
 	Algebra_difficulty.style.display = 'none';
 	Algebra_label.style.display = 'none';
@@ -1016,6 +1020,13 @@ Multiplication_difficulty.style.display = 'none';
 Algebra_label.style.display = 'none';
 Algebra_difficulty.style.display = 'none';
 
+Btn3.style.display = 'none';
+Btn4.style.display = 'none';
+Btn5.style.display = 'none';
+Btn6.style.display = 'none';
+Btn7.style.display = 'none';
+Anwserbtn.style.display = 'none';
+
 Equations.style.display = 'none';
 Solve.style.display = 'none';
 Solve_Equ.style.display = 'none';
@@ -1035,12 +1046,12 @@ Btn2.onclick = function(){
 	label_5.style.display = 'none';
 	Btn2.style.display = 'none';
 	type_label.style.display = 'none';
-	Btn3.style.display = 'none';
-	Btn4.style.display = 'none';
-	Btn5.style.display = 'none';
-	Btn6.style.display = 'none';
-	Btn7.style.display = 'none';
-	Answerbtn.style.display = 'none';
+	Btn3.style.display = 'block';
+	Btn4.style.display = 'block';
+	Btn5.style.display = 'block';
+	Btn6.style.display = 'block';
+	Btn7.style.display = 'block';
+
 
 	Breaks1.forEach(el => {
   		el.style.display = "none";
