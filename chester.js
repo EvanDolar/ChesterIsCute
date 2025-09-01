@@ -10,7 +10,7 @@ let points = 0;
 
 const Score = document.getElementById("score");
 
-const Anwserbtn = document.getelementById("answerbtn");
+const Anwserbtn = document.getElementById("answerbtn");
 
 const Solve = document.getElementById("solve");
 
@@ -1094,3 +1094,4 @@ Btn2.onclick = function(){
 		});
 	}
 	}
+
