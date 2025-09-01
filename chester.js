@@ -1094,4 +1094,3 @@ Btn2.onclick = function(){
 		});
 	}
 	}
-
