@@ -1079,7 +1079,7 @@ Btn2.addEventListener("click", event => {
 	else if(Algebra.checked) {
 		Algebra_label.style.display = 'block';
 		Algebra_difficulty.style.display = 'block';
-		Btn7.style.display = 'none';
+		Btn7.style.display = 'block';
 	}	
 
 	else {
