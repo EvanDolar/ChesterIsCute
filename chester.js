@@ -528,7 +528,7 @@ function AdditionGameNorSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'AdditionGameNor';
+	Anwserbtn.onclick = AdditionGameNor;
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
 	AdditionGameNor();
@@ -547,7 +547,7 @@ function AdditionGameMedSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'AdditionGameMed';
+	Anwserbtn.onclick = AdditionGameMed;
 	Anwserbtn.style.display = 'block';
 	AdditionGameMed();
 }
@@ -564,7 +564,7 @@ function AdditionGameHardSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'AdditionGameHard';
+	Anwserbtn.onclick = AdditionGameHard;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -583,7 +583,7 @@ function SubtractionGameNorSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'SubtractrionGameNor';
+	Anwserbtn.onclick = SubtractrionGameNor;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -604,7 +604,7 @@ function SubtractionGameMedSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'SubtractrionGameMed';
+	Anwserbtn.onclick = SubtractrionGameMed;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -624,7 +624,7 @@ function SubtractionGameHardSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'SubtractrionGameHard';
+	Anwserbtn.onclick = SubtractrionGameHard;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -641,7 +641,7 @@ function DivisionGameNorSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'DivisonGameNor';
+	Anwserbtn.onclick = DivisonGameNor;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -675,7 +675,7 @@ function DivisionGameMixedSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'DivisonGameMixed';
+	Anwserbtn.onclick = DivisonGameMixed;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -691,7 +691,7 @@ function MultiGameNorSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'MultiGameNor';
+	Anwserbtn.onclick = MultiGameNor;
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
 }
@@ -719,7 +719,7 @@ function MultiGameMixedSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'MultiGameNor';
+	Anwserbtn.onclick = MultiGameNor;
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
 }
@@ -760,7 +760,7 @@ function AlgebraGameNorSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'AlgebraGameNor';
+	Anwserbtn.onclick = AlgebraGameNor;
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
 }
@@ -770,9 +770,10 @@ function AlgebraGameMedSetup() {
 	
 	if(format = 1) {
 	
-		number1 = RandomNumber(1,12);
-		number2 = RandomNumber(1,12);
-		number3 = RandomNumber(1,12);          
+		number1 = RandomNumber(5,12);
+		number2 = RandomNumber(5,12);
+		number3 = RandomNumber(12,50);     
+		let Product = number1 * number2 - number3;     
 		answer = number2;
 		number2.toString();
 		number1.toString();
@@ -802,7 +803,7 @@ function AlgebraGameMedSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'AlgebraGameMed';
+	Anwserbtn.onclick = AlgebraGameMed;
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
 }
@@ -907,7 +908,7 @@ function AlgebraGameHardSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = 'AlgebraGameHard';
+	Anwserbtn.onclick = AlgebraGameHard;
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
 }
