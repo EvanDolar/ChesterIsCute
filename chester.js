@@ -398,6 +398,7 @@ function AdditionGameNorSetup() {
 	number2.toString();
 	number1.toString();
 	answer.toString();
+	Equations.textContent = number2 + " + " + number1;
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
@@ -417,6 +418,7 @@ function AdditionGameMedSetup() {
 	number2.toString();
 	number1.toString();
 	answer.toString();
+	Equations.textContent = number2 + " + " + number1;
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
@@ -434,6 +436,7 @@ function AdditionGameHardSetup() {
 	number2.toString();
 	number1.toString();
 	answer.toString();
+	Equations.textContent = number2 + " + " + number1 + " + " + number3;
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
@@ -470,6 +473,7 @@ function SubtractionGameMedSetup() {
 	answer.toString();
 	number2.toString();
 	number1.toString();
+	Equations.textContent = number1 + " - " + number2;
 	if(answer < 0) {
 		answer = number2 - number1;
 		Equations.textContent = number2 + " - " + number1;
