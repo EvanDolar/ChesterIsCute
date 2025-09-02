@@ -37,6 +37,7 @@ const Multiplication = document.getElementById("multiplication");
 const label_5 = document.getElementById("algebra_label");
 const Algebra = document.getElementById("algebra");
 
+let selected_value = "";
 
 
 function handle_change(value) {
