@@ -455,7 +455,7 @@ function SubtractionGameNorSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = SubtractrionGameNor;
+	Anwserbtn.onclick = SubtractionGameNor;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -476,7 +476,7 @@ function SubtractionGameMedSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = SubtractrionGameMed;
+	Anwserbtn.onclick = SubtractionGameMed;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -496,7 +496,7 @@ function SubtractionGameHardSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = SubtractrionGameHard;
+	Anwserbtn.onclick = SubtractionGameHard;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -532,7 +532,7 @@ function DivisionGameMixedSetup() {
 	
 	let divisor = number3 * number6 + number2;
 	let dividend = divisor * quotient;
-	number4 = divident - number5 * number1; 
+	number4 = dividend - number5 * number1; 
 		
 	number2.toString();
 	number1.toString();
@@ -746,7 +746,7 @@ function AlgebraGameHardSetup() {
 		
 			let divisor = number3 * number6 + number2;
 			let dividend = divisor * quotient;
-			number4 = divident - number5 * number1; 
+			number4 = dividend - number5 * number1; 
 	
 			quotient.toString();
 			number1.toString();
@@ -833,7 +833,7 @@ function MultiplicationGame() {
         MultiplicationGameNor();
       } 
 	else if (selected_value === "mixed") {
-        MultiplicationGamMixed();
+        MultiplicationGameMixed();
       } 
 	else {
       Multiplication_difficulty.style.display = 'block';
