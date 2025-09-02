@@ -75,6 +75,7 @@ let Breaks1 = document.querySelectorAll(".breaks1");
 
 
 function AdditionGameNor() {	
+	Btn3.style.display = 'none';
 
 
 	if (Solve_Equ === anwser) {
@@ -104,7 +105,8 @@ function AdditionGameNor() {
 
 
 function AdditionGameMed() {
-	
+	Btn3.style.display = 'none';
+
 
 		if (Solve_Equ === anwser) {
 
@@ -128,6 +130,7 @@ function AdditionGameMed() {
 
 
 function AdditionGameHard() {
+	Btn3.style.display = 'none';
 
 		if (Solve_Equ === anwser) {
 
@@ -150,155 +153,13 @@ function AdditionGameHard() {
 	
 }
 
-function SubtractionGameNor() {
-		if (Solve_Equ === anwser) {
 
 
-		points = points + 1;
-		points.toString();
-	}
-
-	if (questions < 10) {
-
-
-		questions = questions + 1;
-		AdditionGameNorSetup();
-
-	}
-
-	else {
-		
-		Score.textContent = points;
-		Score.style.display = 'block';
-	}
-
-
-}
-	
-
-
-function AdditionGameMed() {
-	
-
-		if (Solve_Equ === anwser) {
-
-
-			points = points + 1;
-			points.toString();
-		}
-
-		if (questions < 10) {
-
-			questions = questions + 1;
-			AdditionGameMedSetup();
-		}
-
-		else {
-		
-			Score.textContent = points;
-			Score.style.display = 'block';
-		}
-}
-
-
-function AdditionGameHard() {
-
-	if (Solve_Equ === anwser) {
-
-		points = points + 1;
-		points.toString();
-		}
-
-	if (questions < 10) {
-
-		questions = questions + 1;
-		AdditionGameHardSetup();
-		}
-
-	else {
-		
-		Score.textContent = points;
-		Score.style.display = 'block';
-
-
-		}
-}
-function SubtractionGameMed() {
-	if (Solve_Equ === anwser) {
-
-
-		points = points + 1;
-		points.toString();
-	}
-
-	if (questions < 10) {
-
-
-		questions = questions + 1;
-		AdditionGameNorSetup();
-
-	}
-
-	else {
-		
-		Score.textContent = points;
-		Score.style.display = 'block';
-	}
-
-
-}
-	
-
-
-function AdditionGameMed() {
-	
-
-	if (Solve_Equ === anwser) {
-
-
-		points = points + 1;
-		points.toString();
-	}
-
-	if (questions < 10) {
-
-		questions = questions + 1;
-		AdditionGameMedSetup();
-		}
-
-	else {
-		
-		Score.textContent = points;
-		Score.style.display = 'block';
-		}
-}
-
-
-function AdditionGameHard() {
-
-	if (Solve_Equ === anwser) {
-
-
-		points = points + 1;
-		points.toString();
-	}
-
-	if (questions < 10) {
-
-		questions = questions + 1;
-		AdditionGameHardSetup();
-		}
-
-	else {
-		
-		Score.textContent = points;
-		Score.style.display = 'block';
-		}
-}
 
 
 function SubtractionGameNor() {
-	
+	Btn4.style.display = 'none';
+
 
 	if (Solve_Equ === anwser) {
 
@@ -321,6 +182,7 @@ function SubtractionGameNor() {
 }
 
 function SubtractionGameMed() {
+	Btn4.style.display = 'none';
 	
 
 	if (Solve_Equ === anwser) {
@@ -344,6 +206,7 @@ function SubtractionGameMed() {
 }
 
 function SubtractionGameHard() {
+	Btn4.style.display = 'none';
 	
 
 	if (Solve_Equ === anwser) {
@@ -367,6 +230,7 @@ function SubtractionGameHard() {
 }
 
 function DivisionGameNor() {
+	Btn5.style.display = 'none';
 
 	if (Solve_Equ === anwser) {
 
@@ -390,6 +254,8 @@ function DivisionGameNor() {
 
 
 function DivisionGameMixed() {
+	Btn5.style.display = 'none';
+
 	if (Solve_Equ === anwser) {
 
 
@@ -411,6 +277,7 @@ function DivisionGameMixed() {
 }
 
 function MultiGameNor() {
+	Btn6.style.display = 'none';
 	if (Solve_Equ === anwser) {
 
 
@@ -434,6 +301,7 @@ function MultiGameNor() {
 
 
 function MultiGameMixed() {
+	Btn6.style.display = 'none';
 	if (Solve_Equ === anwser) {
 
 
@@ -455,6 +323,7 @@ function MultiGameMixed() {
 }
 
 function AlgebraGameNor() {
+	Btn7.style.display = 'none';
 	if (Solve_Equ === anwser) {
 
 
@@ -476,6 +345,7 @@ function AlgebraGameNor() {
 }
 
 function AlgebraGameMed() {
+	Btn7.style.display = 'none';
 	if (Solve_Equ === anwser) {
 
 
@@ -497,6 +367,7 @@ function AlgebraGameMed() {
 }
 
 function AlgebraGameHard() {
+	Btn7.style.display = 'none';
 	if (Solve_Equ === anwser) {
 
 
