@@ -37,7 +37,7 @@ const Multiplication = document.getElementById("multiplication");
 const label_5 = document.getElementById("algebra_label");
 const Algebra = document.getElementById("algebra");
 
-let selected_value ="";
+
 
 function handle_change(value) {
 
@@ -368,6 +368,7 @@ function AlgebraGameMed() {
 
 function AlgebraGameHard() {
 	Btn7.style.display = 'none';
+
 	if (Solve_Equ === anwser) {
 
 
@@ -788,13 +789,13 @@ function AdditionGame()	 {
 	Anwserbtn.style.display = 'block';
 	Addition_difficulty.style.display = 'none';
 	Addition_label.style.display = 'none';
-   if (selectedValue === "normal") {
+   if (selected_value === "normal") {
 		AdditionGameNor();
       } 
-	else if (selectedValue === "medium") {
+	else if (selected_value === "medium") {
        AdditionGameMed();
       } 
-	else if (selectedValue === "hard") {
+	else if (selected_value === "hard") {
 		AdditionGameHard();        
       } 
 	else {
@@ -808,13 +809,13 @@ function SubtractionGame() {
 
 	Subtraction_difficulty.style.display = 'none';
 	Subtraction_label.style.display = 'none';
-   if (selectedValue === "normal") {
+   if (selected_value === "normal") {
         SubtractionGameNor();
       } 
-	else if (selectedValue === "medium") {
+	else if (selected_value === "medium") {
        SubtractionGameMed();
       } 
-	else if (selectedValue === "hard") {
+	else if (selected_value === "hard") {
         SubtractionGameHard();
       } 
 	else {
@@ -828,10 +829,10 @@ function MultiplicationGame() {
 
 	Multiplication_difficulty.style.display = 'none';
 	Multiplication_label.style.display = 'none';
-   if (selectedValue === "normal") {
+   if (selected_value === "normal") {
         MultiplicationGameNor();
       } 
-	else if (selectedValue === "mixed") {
+	else if (selected_value === "mixed") {
         MultiplicationGamMixed();
       } 
 	else {
@@ -845,10 +846,10 @@ function DivisionGame() {
 
 	Division_difficulty.style.display = 'none';
 	Division_label.style.display = 'none';
-   if (selectedValue === "normal") {
+   if (selected_value === "normal") {
 		DivisionGameNor();        
       } 
-	else if (selectedValue === "mixed") {
+	else if (selected_value === "mixed") {
         DivisionGameMixed();
       } 
 	else {
@@ -862,13 +863,13 @@ function AlgebraGame() {
 
 	Algebra_difficulty.style.display = 'none';
 	Algebra_label.style.display = 'none';
-   if (selectedValue === "normal") {
+   if (selected_value === "normal") {
         
       } 
-	else if (selectedValue === "medium") {
+	else if (selected_value === "medium") {
        
       } 
-	else if (selectedValue === "hard") {
+	else if (selected_value === "hard") {
         
       } 
 	else {
