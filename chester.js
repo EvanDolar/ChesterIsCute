@@ -79,7 +79,7 @@ function AdditionGameNor() {
 	Btn3.style.display = 'none';
 
 
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -110,7 +110,7 @@ function AdditionGameMed() {
 	Btn3.style.display = 'none';
 
 
-		if (Solve_Equ === anwser) {
+		if (Solve_Equ.value == anwser) {
 
 
 			points = points + 1;
@@ -135,7 +135,7 @@ function AdditionGameMed() {
 function AdditionGameHard() {
 	Btn3.style.display = 'none';
 
-		if (Solve_Equ === anwser) {
+		if (Solve_Equ.value == anwser) {
 
 
 			points = points + 1;
@@ -165,7 +165,7 @@ function SubtractionGameNor() {
 	Btn4.style.display = 'none';
 
 
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -190,7 +190,7 @@ function SubtractionGameMed() {
 	Btn4.style.display = 'none';
 	
 
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -215,7 +215,7 @@ function SubtractionGameHard() {
 	Btn4.style.display = 'none';
 	
 
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -239,7 +239,7 @@ function SubtractionGameHard() {
 function DivisionGameNor() {
 	Btn5.style.display = 'none';
 
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -264,7 +264,7 @@ function DivisionGameNor() {
 function DivisionGameMixed() {
 	Btn5.style.display = 'none';
 
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -287,7 +287,7 @@ function DivisionGameMixed() {
 
 function MultiGameNor() {
 	Btn6.style.display = 'none';
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -312,7 +312,7 @@ function MultiGameNor() {
 
 function MultiGameMixed() {
 	Btn6.style.display = 'none';
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -335,7 +335,7 @@ function MultiGameMixed() {
 
 function AlgebraGameNor() {
 	Btn7.style.display = 'none';
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -358,7 +358,7 @@ function AlgebraGameNor() {
 
 function AlgebraGameMed() {
 	Btn7.style.display = 'none';
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -382,7 +382,7 @@ function AlgebraGameMed() {
 function AlgebraGameHard() {
 	Btn7.style.display = 'none';
 
-	if (Solve_Equ === anwser) {
+	if (Solve_Equ.value == anwser) {
 
 
 		points = points + 1;
@@ -418,7 +418,7 @@ function AdditionGameNorSetup() {
 	Anwserbtn.onclick = AdditionGameNor;
 	Anwserbtn.style.display = 'block';
 	Score.style.display = 'block';
-	AdditionGameNor();
+
 }
 
 function AdditionGameMedSetup() {
@@ -437,7 +437,6 @@ function AdditionGameMedSetup() {
 	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = AdditionGameMed;
 	Anwserbtn.style.display = 'block';
-	AdditionGameMed();
 }
 
 function AdditionGameHardSetup() {
