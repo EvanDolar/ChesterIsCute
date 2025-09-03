@@ -84,6 +84,7 @@ function AdditionGameNor() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -114,6 +115,7 @@ function AdditionGameMed() {
 
 			points = points + 1;
 			points.toString();
+			console.log("Answer is correct");
 		}
 
 		if (questions < 10) {
@@ -138,6 +140,7 @@ function AdditionGameHard() {
 
 			points = points + 1;
 			points.toString();
+			console.log("Answer is correct");
 		}
 
 		if (questions < 10) {
@@ -167,6 +170,7 @@ function SubtractionGameNor() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -191,6 +195,7 @@ function SubtractionGameMed() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -215,6 +220,7 @@ function SubtractionGameHard() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -238,6 +244,7 @@ function DivisionGameNor() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -262,6 +269,7 @@ function DivisionGameMixed() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -284,6 +292,7 @@ function MultiGameNor() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -308,6 +317,7 @@ function MultiGameMixed() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -330,6 +340,7 @@ function AlgebraGameNor() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -352,6 +363,7 @@ function AlgebraGameMed() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -375,6 +387,7 @@ function AlgebraGameHard() {
 
 		points = points + 1;
 		points.toString();
+		console.log("Answer is correct");
 	}
 
 	if (questions < 10) {
@@ -570,7 +583,6 @@ function MultiGameNorSetup() {
 	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = MultiGameNor;
 	Anwserbtn.style.display = 'block';
-	Score.style.display = 'block';
 }
 
 function MultiGameMixedSetup() {
@@ -598,7 +610,7 @@ function MultiGameMixedSetup() {
 	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = MultiGameNor;
 	Anwserbtn.style.display = 'block';
-	Score.style.display = 'block';
+
 }
 
 
@@ -639,7 +651,7 @@ function AlgebraGameNorSetup() {
 	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = AlgebraGameNor;
 	Anwserbtn.style.display = 'block';
-	Score.style.display = 'block';
+	
 }
 
 function AlgebraGameMedSetup() {
@@ -682,7 +694,7 @@ function AlgebraGameMedSetup() {
 	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = AlgebraGameMed;
 	Anwserbtn.style.display = 'block';
-	Score.style.display = 'block';
+	
 }
 
 function AlgebraGameHardSetup() {
@@ -787,7 +799,7 @@ function AlgebraGameHardSetup() {
 	Solve_Equ.style.display = 'block';
 	Anwserbtn.onclick = AlgebraGameHard;
 	Anwserbtn.style.display = 'block';
-	Score.style.display = 'block';
+
 }
 
 function AdditionGame()	 {
