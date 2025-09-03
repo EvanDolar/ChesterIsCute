@@ -97,7 +97,10 @@ function AdditionGameNor() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 	}
 
@@ -125,9 +128,11 @@ function AdditionGameMed() {
 		}
 
 		else {
-		
-			Score.textContent = points;
-			Score.style.display = 'block';
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
+		Score.style.display = 'block';
 		}
 }
 
@@ -151,8 +156,11 @@ function AdditionGameHard() {
 
 		else {
 		
-			Score.textContent = points;
-			Score.style.display = 'block';
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
+		Score.style.display = 'block';
 		}
 	
 }
@@ -180,8 +188,10 @@ function SubtractionGameNor() {
 		}
 
 	else {
-		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -206,7 +216,10 @@ function SubtractionGameMed() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -230,8 +243,10 @@ function SubtractionGameHard() {
 		}
 
 	else {
-		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -255,7 +270,10 @@ function DivisionGameNor() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -280,7 +298,10 @@ function DivisionGameMixed() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -303,7 +324,10 @@ function MultiGameNor() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -328,7 +352,10 @@ function MultiGameMixed() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -351,7 +378,10 @@ function AlgebraGameNor() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -374,7 +404,10 @@ function AlgebraGameMed() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
@@ -398,7 +431,10 @@ function AlgebraGameHard() {
 
 	else {
 		
-		Score.textContent = points;
+		let num = Number(points);		
+		num.toString();
+		Score.textContent = num;
+
 		Score.style.display = 'block';
 		}
 }
