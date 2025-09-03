@@ -5,12 +5,12 @@ function RandomNumber(min, max) {
 let questions = 0;
 
 const Equations = document.getElementById("equation");
-let anwser = 0;
+let answer = 0;
 let points = 0;
 
 const Score = document.getElementById("score");
 
-const Anwserbtn = document.getElementById("anwserbtn");
+const Anwserbtn = document.getElementById("answerbtn");
 
 const Solve = document.getElementById("solve");
 
@@ -79,7 +79,7 @@ function AdditionGameNor() {
 	Btn3.style.display = 'none';
 
 
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -110,7 +110,7 @@ function AdditionGameMed() {
 	Btn3.style.display = 'none';
 
 
-		if (Solve_Equ.value == anwser) {
+		if (Solve_Equ.value == answer) {
 
 
 			points = points + 1;
@@ -135,7 +135,7 @@ function AdditionGameMed() {
 function AdditionGameHard() {
 	Btn3.style.display = 'none';
 
-		if (Solve_Equ.value == anwser) {
+		if (Solve_Equ.value == answer) {
 
 
 			points = points + 1;
@@ -165,7 +165,7 @@ function SubtractionGameNor() {
 	Btn4.style.display = 'none';
 
 
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -190,7 +190,7 @@ function SubtractionGameMed() {
 	Btn4.style.display = 'none';
 	
 
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -215,7 +215,7 @@ function SubtractionGameHard() {
 	Btn4.style.display = 'none';
 	
 
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -239,7 +239,7 @@ function SubtractionGameHard() {
 function DivisionGameNor() {
 	Btn5.style.display = 'none';
 
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -264,7 +264,7 @@ function DivisionGameNor() {
 function DivisionGameMixed() {
 	Btn5.style.display = 'none';
 
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -287,7 +287,7 @@ function DivisionGameMixed() {
 
 function MultiGameNor() {
 	Btn6.style.display = 'none';
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -312,7 +312,7 @@ function MultiGameNor() {
 
 function MultiGameMixed() {
 	Btn6.style.display = 'none';
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -335,7 +335,7 @@ function MultiGameMixed() {
 
 function AlgebraGameNor() {
 	Btn7.style.display = 'none';
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -358,7 +358,7 @@ function AlgebraGameNor() {
 
 function AlgebraGameMed() {
 	Btn7.style.display = 'none';
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -382,7 +382,7 @@ function AlgebraGameMed() {
 function AlgebraGameHard() {
 	Btn7.style.display = 'none';
 
-	if (Solve_Equ.value == anwser) {
+	if (Solve_Equ.value == answer) {
 
 
 		points = points + 1;
@@ -521,7 +521,7 @@ function DivisionGameNorSetup() {
 
 	let number1 = RandomNumber(1,12);
 	let number2 = RandomNumber(1,12);
-	anwser = number2;
+	answer = number2;
 	let dividend = number1 * number2; 
 	number2.toString();
 	number1.toString();
@@ -721,26 +721,26 @@ function AlgebraGameHardSetup() {
 		number6.toString();
 		solved.toString();
 		if(varabible = 1){
-			anwser = number6;
+			answer = number6;
 			answer.toString();		
 			Equations.textContent = "(" + number6 + "*" + number3 + "+" + number4 + ")" + " * " + "(" + number1 + "*" + number5 + "-" + number2 + ")" + " = " + solved; 
 			
 		}		
 	
 		if(varabible = 2){
-			anwser = number4;
+			answer = number4;
 			answer.toString();	
 			Equations.textContent = "(" + number6 + "*" + number3 + "+" + " x " + ")" + " * " + "(" + number1 + "*" + number5 + "-" + number2 + ")" + " = " + solved;
 					
 		}
 		if(varabible = 3){
-			anwser = number5;
+			answer = number5;
 			answer.toString();	
 			Equations.textContent = "(" + number6 + "*" + number3 + "+" + number4 + ")" + " * " + "(" + number1 + "*" + " x " + "-" + number2 + ")" + " = " + solved;
 			
 		}
 		if(varabible = 4){
-			anwser = number2;
+			answer = number2;
 			answer.toString();	
 			Equations.textContent = "(" + number6 + "*" + number3 + "+" + number4 + ")" + " * " + "(" + number1 + "*" + number5 + "-" + " x " + ")" + " = " + solved; 
 			
@@ -774,16 +774,16 @@ function AlgebraGameHardSetup() {
 
 		if(varabible = 1){
 			Equations.textContent = "(" + " x " + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ") = " + quotient;
-			anwser = number1;
+			answer = number1;
 		}		
 	
 		if(varabible = 2){
 			Equations.textContent = "(" + number1 + "*" + " x " + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ") = " + quotient;
-			anwser = number5;
+			answer = number5;
 		}
 		if(varabible = 3){
 			Equations.textContent = "(" + number1 + "*" + number5 + "-" + " x " + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ") = " + quotient;
-			anwser = number4;
+			answer = number4;
 		}
 		if(varabible = 4){
 			Equations.textContent = "(" + number1 + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + " x " + ") = " + quotient;
