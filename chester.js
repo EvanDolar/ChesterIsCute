@@ -580,7 +580,7 @@ function DivisionGameNorSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = DivisonGameNor;
+	Anwserbtn.onclick = DivisionGameNor;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -614,7 +614,7 @@ function DivisionGameMixedSetup() {
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
-	Anwserbtn.onclick = DivisonGameMixed;
+	Anwserbtn.onclick = DivisionGameMixed;
 	Anwserbtn.style.display = 'block';
 }
 
@@ -642,10 +642,10 @@ function MultiGameMixedSetup() {
 	let number4 = RandomNumber(35,50);
 	let number5 = RandomNumber(1,5);
 	let number6 = RandomNumber(1,5);
-	let multple1 = number6 * number3 + number1;
-	let multple2 = number4 * number5 - number2;
+	let multiple1 = number6 * number3 + number1;
+	let multiple2 = number4 * number5 - number2;
 	
-	answer = multiple1 * multple2;
+	answer = multiple1 * multiple2;
 	number2.toString();
 	number1.toString();
 	number3.toString();
@@ -672,6 +672,7 @@ function AlgebraGameNorSetup() {
 	
 		number1 = RandomNumber(1,12);
 		number2 = RandomNumber(1,12);
+		let Product = number1 * number2;
 	
 		answer = number2;
 		number2.toString();
@@ -759,8 +760,8 @@ function AlgebraGameHardSetup() {
 		let number4 = RandomNumber(35,50);
 		let number5 = RandomNumber(1,5);
 		let number6 = RandomNumber(1,5);
-		let multple1 = number6 * number3 + number1;
-		let multple2 = number4 * number5 - number2;
+		let multiple1 = number6 * number3 + number1;
+		let multiple2 = number4 * number5 - number2;
 		let solved = multiple1 * multiple2;
 		 
 		number1.toString();
@@ -896,10 +897,10 @@ function MultiplicationGame() {
 	Multiplication_difficulty.style.display = 'none';
 	Multiplication_label.style.display = 'none';
    if (selected_value === "normal") {
-        MultiplicationGameNor();
+        MultiGameNor();
       } 
 	else if (selected_value === "mixed") {
-        MultiplicationGameMixed();
+        MultiGameMixed();
       } 
 	else {
       	Multiplication_difficulty.style.display = 'block';
