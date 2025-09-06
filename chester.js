@@ -589,7 +589,7 @@ function DivisionGameNorSetup() {
 function DivisionGameMixedSetup() {
 
 	let number1 = RandomNumber(100,85);
-	let number2 = RandomNumber(85,70);
+	let number2 = RandomNumber(40,25);
 	let number3 = RandomNumber(70,55);
 	let number4 = 0;	
 	let number5 = RandomNumber(2,5);
@@ -601,7 +601,19 @@ function DivisionGameMixedSetup() {
 	let divisor = number3 * number6 + number2;
 	let dividend = divisor * quotient;
 	number4 = dividend - number5 * number1; 
-		
+	
+	if(number4 < 0) {
+		number2.toString();
+		number1.toString();
+		number3.toString();
+		number4.toString();
+		number5.toString();
+		number6.toString();
+		answer.toString();
+		Equations.textContent = "(" + number1 + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
+		console.log("Div-");
+	}
+	else {
 	number2.toString();
 	number1.toString();
 	number3.toString();
@@ -610,8 +622,8 @@ function DivisionGameMixedSetup() {
 	number6.toString();
 	answer.toString();
  		
-	Equations.textContent = "(" + number1 + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
-	
+	Equations.textContent = "(" + number1 + "*" + number5 + "+" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
+	}
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
 	Solve_Equ.style.display = 'block';
