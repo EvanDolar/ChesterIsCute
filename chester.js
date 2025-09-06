@@ -588,14 +588,15 @@ function DivisionGameNorSetup() {
 
 function DivisionGameMixedSetup() {
 
-	let number1 = RandomNumber(375,450);
-	let number2 = RandomNumber(300,375);
-	let number3 = RandomNumber(225,300);
-	let number4 = 0;
-	let number5 = RandomNumber(2,9);
-	let number6 = RandomNumber(2,9);
+	let number1 = RandomNumber(100,85);
+	let number2 = RandomNumber(85,70);
+	let number3 = RandomNumber(70,55);
+	let number4 = 0;	
+	let number5 = RandomNumber(2,5);
+	let number6 = RandomNumber(2,5);
 
 	let quotient = RandomNumber(1,10);
+	let answer = quotient;
 	
 	let divisor = number3 * number6 + number2;
 	let dividend = divisor * quotient;
@@ -609,7 +610,7 @@ function DivisionGameMixedSetup() {
 	number6.toString();
 	answer.toString();
  		
-		Equations.textContent = "(" + number1 + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
+	Equations.textContent = "(" + number1 + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
 	
 	Equations.style.display = 'block';
 	Solve.style.display = 'block';
