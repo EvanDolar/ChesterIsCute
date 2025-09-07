@@ -596,7 +596,7 @@ function DivisionGameMixedSetup() {
 	let number6 = RandomNumber(2,5);
 
 	let quotient = RandomNumber(1,10);
-	let answer = quotient;
+	answer = quotient;
 	
 	let divisor = number3 * number6 + number2;
 	let dividend = divisor * quotient;
@@ -614,13 +614,13 @@ function DivisionGameMixedSetup() {
 		console.log("Div-");
 	}
 	else {
-	number2.toString();
-	number1.toString();
-	number3.toString();
-	number4.toString();
-	number5.toString();
-	number6.toString();
-	answer.toString();
+		number2.toString();
+		number1.toString();
+		number3.toString();
+		number4.toString();
+		number5.toString();
+		number6.toString();
+		answer.toString();
  		
 	Equations.textContent = "(" + number1 + "*" + number5 + "+" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
 	}
