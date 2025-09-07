@@ -12,7 +12,20 @@
 	background-color: grey;
 	border-radius: 10px;
 }
+#btn2 {
+	font-size: 2rem;
+	color: #98f542;
+	padding: 16px 32px;
+	background-color: #4290f5;
+	border: 3px solid black;
+	border-radius: 5px;
+	font-weight: bold;
+}
 
+#btn2:hover {
+	background-color: grey;
+	border-radius: 10px;
+}
 #btnGame {
 	font-size: 2rem;
 	color: #98f542;
@@ -47,5 +60,10 @@
 	border: 3px solid black;
 }
 
+#solve_equ {
+	font-size: 2rem;
+	color: #9ab8d1;
+	font-weight: bold;
+}
 
  
