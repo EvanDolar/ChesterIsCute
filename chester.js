@@ -606,10 +606,12 @@ function DivisionGameMixedSetup() {
 		number2.toString();
 		number1.toString();
 		number3.toString();
-		number4.toString();
 		number5.toString();
 		number6.toString();
 		answer.toString();
+
+		number4 = Math.abs(number4);
+		number4.toString();
 		Equations.textContent = "(" + number1 + "*" + number5 + "-" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
 		console.log("Div-");
 	}
@@ -621,7 +623,7 @@ function DivisionGameMixedSetup() {
 		number5.toString();
 		number6.toString();
 		answer.toString();
- 		
+
 	Equations.textContent = "(" + number1 + "*" + number5 + "+" + number4 + ")" + " / " + "(" + number3 + "*" + number6 + "+" + number2 + ")";
 	}
 	Equations.style.display = 'block';
