@@ -75,7 +75,7 @@ let Breaks1 = document.querySelectorAll(".breaks1");
 
 
 
-function AdditionGameNor() {	
+function AdditionGameNor() {
 	Btn3.style.display = 'none';
 
 
@@ -104,6 +104,8 @@ function AdditionGameNor() {
 
 		Score.style.display = 'block';
 	}
+
+	Solve_Equ.value = "";
 
 
 }
@@ -137,6 +139,8 @@ function AdditionGameMed() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 
@@ -167,6 +171,7 @@ function AdditionGameHard() {
 		Score.style.display = 'block';
 		}
 	
+	Solve_Equ.value = "";
 }
 
 
@@ -199,6 +204,8 @@ function SubtractionGameNor() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function SubtractionGameMed() {
@@ -228,6 +235,8 @@ function SubtractionGameMed() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function SubtractionGameHard() {
@@ -256,6 +265,8 @@ function SubtractionGameHard() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function DivisionGameNor() {
@@ -284,6 +295,8 @@ function DivisionGameNor() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 
@@ -313,6 +326,8 @@ function DivisionGameMixed() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function MultiGameNor() {
@@ -340,6 +355,8 @@ function MultiGameNor() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 
@@ -369,6 +386,8 @@ function MultiGameMixed() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function AlgebraGameNor() {
@@ -396,6 +415,8 @@ function AlgebraGameNor() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function AlgebraGameMed() {
@@ -423,6 +444,8 @@ function AlgebraGameMed() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function AlgebraGameHard() {
@@ -451,6 +474,8 @@ function AlgebraGameHard() {
 
 		Score.style.display = 'block';
 		}
+
+	Solve_Equ.value = "";
 }
 
 function AdditionGameNorSetup() {
