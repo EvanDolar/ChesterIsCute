@@ -100,7 +100,7 @@ function AdditionGameNor() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 	}
@@ -135,7 +135,7 @@ function AdditionGameMed() {
 		num = num - 1;
 
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -166,7 +166,7 @@ function AdditionGameHard() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -200,7 +200,7 @@ function SubtractionGameNor() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -231,7 +231,7 @@ function SubtractionGameMed() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -261,7 +261,7 @@ function SubtractionGameHard() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -291,7 +291,7 @@ function DivisionGameNor() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -322,7 +322,7 @@ function DivisionGameMixed() {
 		let num = Number(points);	
 		num = num - 1;	
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -351,7 +351,7 @@ function MultiGameNor() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -382,7 +382,7 @@ function MultiGameMixed() {
 		let num = Number(points);	
 		num = num - 1;	
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -411,7 +411,7 @@ function AlgebraGameNor() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -440,7 +440,7 @@ function AlgebraGameMed() {
 		let num = Number(points);		
 		num = num - 1;
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
@@ -470,7 +470,7 @@ function AlgebraGameHard() {
 		let num = Number(points);	
 		num = num - 1;	
 		num.toString();
-		Score.textContent = num;
+		Score.textContent = "Your score is " + num;
 
 		Score.style.display = 'block';
 		}
