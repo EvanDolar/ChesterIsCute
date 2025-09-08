@@ -62,8 +62,19 @@
 
 #solve_equ {
 	font-size: 2rem;
-	color: #9ab8d1;
+	background-color: #8db9dd;
 	font-weight: bold;
 }
 
+#equation{
+	font-size: 2rem;
+}
+
+#score{
+	font-size: 2rem;
+}
+
+#solve{
+	font-size: 2rem;
+}
  
