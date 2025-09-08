@@ -87,6 +87,9 @@
   cursor: pointer;
   background-color: rgb(41, 58, 219);
 }
+.cell:hover {
+  background-color: rgb(149, 240, 247);
+}
 
 #board {
 border-collapse: collapse;
@@ -103,7 +106,7 @@ border-collapse: collapse;
 
 #gameheader {
 	font-size: 2rem;
-	text-align: center;
+	margin: 20px;
 }
 
 
