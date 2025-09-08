@@ -81,10 +81,11 @@
 .cell {
   width: 100px;
   height: 100px;
-  border: 2px solid black;
+  border: 5px solid black;
   text-align: center;
   font-size: 1.5m;
   cursor: pointer;
+  background-color: rgb(41, 58, 219);
 }
 
 #board {
@@ -102,6 +103,7 @@ border-collapse: collapse;
 
 #gameheader {
 	font-size: 2rem;
+	text-align: center;
 }
 
 
