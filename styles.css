@@ -81,7 +81,7 @@
 .cell {
   width: 100px;
   height: 100px;
-  border: 1px solid black;
+  border: 2px solid black;
   text-align: center;
   font-size: 1.5m;
   cursor: pointer;
@@ -90,6 +90,18 @@
 #board {
 border-collapse: collapse;
 
+}
+#bodyGame {
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+
+#gameheader {
+	font-size: 2rem;
 }
 
 
