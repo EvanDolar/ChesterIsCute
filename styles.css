@@ -134,8 +134,14 @@ border-collapse: collapse;
 
 .x {
 	background-image: url('X.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .o {
 	background-image: url('O.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
