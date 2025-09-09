@@ -2,28 +2,32 @@
 <html>
     <head>
 
-    <title>Tic_Tac_Toe</title>
+    <title>Tic Tac Toe</title>
 
 
     </head>
     <body id ="bodygame">
-        <h1 id = "gameheader">Tic Tac Toe</h1>
-        
+        <h1 id = "gameheader">Tic Tac Toe you need a friend to play</h1>
+        <p id = "instructions">best out of five have fun</p>
+        <button id="btnGame" onclick="Start_Game()">Start Game</button>
+
+        <br>
+
         <table id="board">
             <tr>
-                <td class="cell" onclick=""></td>
-                <td class="cell" onclick=""></td>
-                <td class="cell" onclick=""></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
             </tr>
             <tr>
-                <td class="cell" onclick=""></td>
-                <td class="cell" onclick=""></td>
-                <td class="cell" onclick=""></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
             </tr>
             <tr>
-                <td class="cell" onclick=""></td>
-                <td class="cell" onclick=""></td>
-                <td class="cell" onclick=""></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
+                <td class="cell" onclick="cellClicked(this)"></td>
             </tr>
         </table>
         <link rel="stylesheet" href="styles.css">

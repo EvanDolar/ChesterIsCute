@@ -124,10 +124,18 @@ border-collapse: collapse;
 
 #answerbtn {
 	font-size: 1.5rem;
-	color: #1a330e;
+	background-color: #1a330e;
 
 }
 #answerbtn:hover {
 	background-color: #488648;
 	border-radius: 10px;
+}
+
+.x {
+	background-image: url('X.png');
+}
+
+.o {
+	background-image: url('O.png');
 }
