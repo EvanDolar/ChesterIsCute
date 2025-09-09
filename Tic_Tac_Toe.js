@@ -2,7 +2,7 @@ let Ready = false;
 
 let p2turn = false;
 
-const Instructions = getElementrById("Instructions");
+const Instructions = getElementById("Instructions");
 
 const btnGame = getElementById("btnGame");
 
