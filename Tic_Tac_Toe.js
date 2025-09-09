@@ -22,11 +22,16 @@ function cellClicked(cell) {
     if (Ready === true) {
 
         if (p2turn === false) {
-            cell.classList.add("x");
-            p2turn = true;
+            if(!cell.classList.contains("o") && !cell.classList.contains("x")) {
+                cell.classList.add("x");
+                p2turn = true;
+            }
     }
         else {
-            cell.classList.add("o");
+            if(!cell.classList.contains("o") && !cell.classList.contains("x")) {
+                cell.classList.add("o");
+                p2turn = false;
+            }
     }
 }
 }
