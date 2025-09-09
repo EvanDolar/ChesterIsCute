@@ -2,9 +2,9 @@ let Ready = false;
 
 let p2turn = false;
 
-const Instructions = getElementById("instructions");
+const Instructions = document.getElementById("instructions");
 
-const btnGame = getElementById("btnGame");
+const btnGame = document.getElementById("btnGame");
 
 Instructions.style.display = "none";
 
