@@ -125,7 +125,7 @@ border-collapse: collapse;
 #answerbtn {
 	font-size: 1.5rem;
 	background-color: #2e7010;
-
+	border-radius: 5px;
 }
 #answerbtn:hover {
 	background-color: #21c721;
